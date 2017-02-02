@@ -4,11 +4,56 @@
 }
 
 body {
-  margin-left: 0;
+  margin: 0;
   font-family: sans-serif;
 }
 
 ul {
   padding: 0;
   list-style: none;
+
 }
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: 2rem;
+  background: green;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+  background: #999;
+}
+
+.grid_item {
+  background: blue;
+  width: calc(100% / 3);
+  overflow: auto;
+}
+
+.grid_item--number {
+  margin: 0;
+  float: left;
+}
+
+.grid_item--info {
+  margin: 0;
+  float: right;
+}
+
+.info-text {
+  margin: 0;
+}
+
+.info-avatar {
+  float: right;
+}
+
+
+/*.grid_item * {
+  visibility: hidden;
+}*/
